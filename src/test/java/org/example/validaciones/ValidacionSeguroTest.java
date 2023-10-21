@@ -56,7 +56,7 @@ class ValidacionSeguroTest {
         Assertions.assertEquals(Mensajes.COBERTURA_INCORRECTA.getMensaje(),resultado.getMessage());
     }
     @Test
-    
+
     public void ValidarFechaCorrecta(){
         String fechaPrueba= "23/12/2020";
         Boolean resultado = Assertions.assertDoesNotThrow(()->this.validacionSeguro.validarFecha(fechaPrueba));
