@@ -5,7 +5,8 @@ import org.example.modelos.Seguro;
 public class Main {
     public static void main(String[] args) {
 
-        Seguro Seguro = new seguro();
+        Seguro seguro = new Seguro();
+        System.out.println(seguro.calcularPrima());
 
     }
 }
